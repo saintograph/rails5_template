@@ -16,8 +16,13 @@ gem 'autoprefixer-rails'
 gem 'haml-rails'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'rack-cors'
+gem 'active_model_serializers'
 gem 'devise'
+gem 'devise_token_auth'
+gem 'omniauth'
 gem 'country_select'
+gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'byebug', platform: :mri
